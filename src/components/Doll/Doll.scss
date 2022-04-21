@@ -1,0 +1,118 @@
+.doll {
+    margin: auto;
+    // border: 2px solid #B370B0;
+    width: 500px;
+    height: 400px;
+
+
+    &_cuerda {
+        position: relative;
+        width: 50%;
+        height: 90%;
+        // border-bottom: 2px solid black;
+
+        &-base {
+            border-bottom: 2px solid black;
+            position: absolute;
+            width: 50%;
+            bottom: 0%;
+        }
+
+        &::before {
+            position: absolute;
+            content: '';
+            border-left: 2px solid black;
+            left: 25%;
+            bottom: 0%;
+            height: 80%;
+        }
+
+        &::after {
+            position: absolute;
+            content: '';
+            border-bottom: 2px solid black;
+            left: 25%;
+            bottom: 80%;
+            width: 60%;
+        }
+
+        span {
+            position: absolute;
+            content: '';
+            border-left: 2px solid black;
+            left: 84.3%;
+            bottom: 70%;
+            height: 10%;
+        }
+    }
+
+    &_muñeco {
+
+        .perdido {
+            border: 5px solid red;
+        }
+
+        position: relative;
+        width: 40%;
+        bottom: 63%;
+        height: 70%;
+        margin-left: 25%;
+
+        &-cabeza {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            border: 5px solid white;
+            top: 0%;
+            left: 27%;
+            border-radius: 100%;
+        }
+
+        &-cuerpo {
+            position: absolute;
+            height: 73px;
+            border-left: 5px solid white;
+            top: 50px;
+            left: 43%;
+        }
+
+        &-brazo1 {
+            position: absolute;
+            height: 50px;
+            border-left: 5px solid white;
+            top: 45px;
+            left: 29%;
+            transform: rotate(60deg);
+        }
+
+        &-brazo2 {
+            position: absolute;
+            height: 50px;
+            border-left: 5px solid white;
+            top: 45px;
+            left: 57%;
+            transform: rotate(120deg);
+        }
+
+        &-pierna2 {
+            position: absolute;
+            height: 50px;
+            border-left: 5px solid white;
+            top: 115px;
+            left: 54%;
+            transform: rotate(135deg);
+        }
+
+        &-pierna1 {
+            position: absolute;
+            height: 50px;
+            border-left: 5px solid white;
+            top: 115px;
+            left: 32%;
+            transform: rotate(45deg);
+        }
+    }
+
+
+
+}

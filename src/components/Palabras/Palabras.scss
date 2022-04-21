@@ -1,0 +1,18 @@
+.palabras {
+    width: 500px;
+    padding-top: 200px;
+    margin-left: -200px;
+
+    span {
+        font-size: 50px;
+        margin-left: 30px;
+    }
+}
+
+
+@media (max-width: 1346px) {
+    .palabras {
+        padding-top: 20px;
+        margin-left: 0;
+    }
+}
