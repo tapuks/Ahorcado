@@ -12,7 +12,7 @@ function App() {
   const [letrasProbadas, setLetrasProbadas] = useState([])
   const [letraClick, setLetraClick] = useState(null)
   const [fallos, setFallos] = useState(0)
-  const words = ['CASA', 'MONEDA', 'CARACOL', 'PINO', 'AVELLANA', 'JAVASCRIPT', 'BOTELLA', 'TAXI', 'MADRID']
+  const words = ['CASA', 'MONEDA', 'CARACOL', 'PINO', 'AVELLANA', 'BOTELLA', 'TAXI', 'MADRID']
   const [arrayPalabra, setArrayPalabra] = useState([])
   const [win, setWin] = useState(false)
 
